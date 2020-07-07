@@ -1,4 +1,3 @@
-// map used.....
 
 // dobuleIt to array...
 const numbers = [2, 4, 5, 6, 7, 8];
@@ -11,7 +10,7 @@ for(let i = 0; i < numbers.length; i++){
 }
 console.log(output);
 
-
+// map used.....
 // system of methods 2nd... system of methods 2nd...
 const numbers = [2, 4, 5, 6, 7, 8];
  
@@ -55,7 +54,35 @@ const numbers = [2, 4, 5, 6, 7, 8];
 const square = numbers.map(element => element * element);
 console.log(square);
 
+
 // system of methods 6th..... system of methods 6th.....
 const numbers = [2, 4, 5, 6, 7, 8];
 const y = numbers.map(x => x * x);
 console.log(y);
+
+
+//filter used .......filter used .......filter used .......filter used .......
+const numbers = [2, 4, 5, 6, 7, 8];
+const bigger = numbers.filter(element => element > 2);
+console.log(bigger);
+
+
+//same here..... same here.....
+const numbers = [2, 4, 5, 6, 7, 8];
+ 
+const total = numbers.filter(square => square < 7)
+console.log(total);
+
+
+// find used... find used... find used... find used... 
+const numbers = [2, 4, 5, 6, 7, 8];
+ 
+const total = numbers.find(square => square > 2)
+console.log(total);
+
+
+// same here.....
+const numbers = [2, 4, 5, 6, 7, 8];
+ 
+const total = numbers.find(square => square < 5)
+console.log(total);
