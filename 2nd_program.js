@@ -45,6 +45,9 @@ const student = [1, 4, 45, 65, 56, 23];
 console.log(student[9]) // output undefiend, becuase have no a indexof number [9] in array so output is undefiend..
 console.log(student); // it's array. so output showed all ellement in array.
 
+let name = ["habib", "wahid", "tarek", "siyam", "rifat"];
+console.log(name[10]);  // output undefiend, becuase have no a indexof number [10] in array so output is undefiend..
+console.log(name);    // it's array. so output showed all ellement in array.
 
 // system of methods 6.....
 let fun = undefined;
