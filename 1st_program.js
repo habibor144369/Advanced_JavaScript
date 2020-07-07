@@ -29,3 +29,51 @@ if(age){
 else{
     console.log("condition is false!");
 }
+
+
+
+// simple condition to cheack... (age >= 0) is true, so logic is true...becuase or get.
+let age = 0;
+
+if(age || age >= 0){
+    console.log("condition is true!");
+}
+else{
+    console.log("condition is false!");
+}
+
+
+
+// simple condition to cheack... (age >= 0) is true, so logic is true... becuase or get.
+let age = 0;
+
+if(age || age >= 0){
+    console.log("condition is true!");
+}
+else{
+    console.log("condition is false!");
+}
+
+
+
+// simple condition to cheack... (age >= 100),(age = 10;) is true, so logic is true...becuase and get.
+let age = 10;
+
+if(age && age >= 0){
+    console.log("condition is true!");
+}
+else{
+    console.log("condition is false!");
+}
+
+
+
+// simple condition to cheack... (age >= 100),(age = 10;) is true, so logic is true... becuase and get.
+let age = 10;
+
+if(age && age >= 0){
+    console.log("condition is true!");
+}
+else{
+    console.log("condition is false!");
+}
